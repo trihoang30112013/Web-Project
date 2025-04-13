@@ -1,0 +1,32 @@
+@media (max-width: 1300px) {
+    .search-bar {
+        display: none;
+    }
+}
+
+@media (max-width: 991px) {
+    .spacer {
+        width: 50vw;
+        height: 2px;
+    }   
+    .search-bar {
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        margin-left: 0;
+    }
+    .nav-link:hover {
+        transform: scale(1.1);
+        margin-left: 40px;
+    }
+    .active {
+        transform: scale(1.1);
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    .sidebar {
+        display: none;
+    }
+}

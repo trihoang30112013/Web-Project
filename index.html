@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Spotify</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark sticky-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <div class="logo">
+                        <img src="./img/icons8-music-500.png" class="" alt="Logo">
+                    </div>
+                    <span>Spotify</span>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+                    aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarToggler">
+                    <form class="search-form" role="search">
+                        <div class="search-bar">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                            <input type="text" placeholder="What do you want to play?">
+                        </div>
+                    </form>
+                    <ul class="navbar-nav gap-3 ms-auto custom-padding" id="navbarNav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#help">Help</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#community">Community</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#blog">Blog</a>
+                        </li>
+                        <div class="spacer"></div>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#install">Install App</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./html/signup.html">Sign up</a>
+                        </li>
+
+                        <li class="nav-item d-none d-lg-block">
+                            <a class="spotify-btn" href="./html/login.html">Log in</a>
+                        </li>
+                        <li class="nav-item d-block d-lg-none">
+                            <a class="nav-link" href="#Login">Log in</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <aside class="col-12 col-md-3 col-lg-2 bg-dark p-3 sidebar">
+                <ul class="nav flex-column">
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Browse</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Library</a>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">Recently Played</a>
+                    </li>
+                </ul>
+            </aside>
+
+            <!-- Main Content -->
+            <section class="col-12 col-md-9 col-lg-10 p-4 content-area">
+                <h1>Main Content</h1>
+                <p>This is where your main app content like music player, playlists, etc., will go.</p>
+            </section>
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
