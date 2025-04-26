@@ -20,9 +20,10 @@ header {
 
 .navbar-brand:hover {
     transform: scale(1.1);
+    color: #1DB954;
 }
 
-.navbar-brand .logo {
+.navbar-brand .logo{
     background-color: white;
     border-radius: 50%;
     overflow: hidden;

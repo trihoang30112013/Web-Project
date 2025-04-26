@@ -29,4 +29,8 @@
     .sidebar {
         display: none;
     }
+    .spacer {
+        width: 20vw;
+        height: 2px;
+    }
 }
